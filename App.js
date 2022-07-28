@@ -1,4 +1,4 @@
-import { View, Text, TabBarIOSItem, TouchableOpacity , Image} from 'react-native'
+import { View, TouchableOpacity , Image} from 'react-native'
 import React from 'react'
 import {NavigationContainer} from  '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -27,7 +27,7 @@ const App = () => {
         <Tab.Screen name = 'Home' component = {Home} options = {{
           tabBarIcon: ({ focused }) =>(
             <View style = {{}}>
-              <Ionic name = 'home-sharp' size = {30} color = {focused ? '#0a76ef' : 'grey'}/>
+              <Ionic name = 'home-outline' size = {30} color = {focused ? '#0a76ef' : 'grey'}/>
             </View>
        )
         }} />

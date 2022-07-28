@@ -160,8 +160,8 @@ const styles = StyleSheet.create({
     welcomeText1:{
       color: '#fff',
       fontSize: 40,
-      // margin: 0,
-      // padding: 0,
+      margin: 0,
+      padding: 0,
       lineHeight: 0,
     },
     profileTxt:{
